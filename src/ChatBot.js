@@ -91,7 +91,7 @@ import AgentApp from './components/AgentApp';
 import io from 'socket.io-client';
 import './components/chat.css';
 
-const socket = io('http://ec2-16-170-208-169.eu-north-1.compute.amazonaws.com:5001');
+const socket = io('https://wflivechatserver.netlify.app/');
 //const socket = io('http://localhost:5001');
 
 function ChatBot({ onBack }) {
